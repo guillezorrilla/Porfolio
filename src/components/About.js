@@ -27,7 +27,7 @@ const About = React.forwardRef((props, ref) => {
 							animateIn='fadeInUp'
 							duration={1}
 							animateOnce={true}
-							delay={1000}
+							delay={500}
 							className='col-md-2 col-12 card'
 							style={{ borderBottom: '2px solid #2c98f0' }}
 						>
@@ -39,7 +39,7 @@ const About = React.forwardRef((props, ref) => {
 							animateIn='fadeInUp'
 							duration={1}
 							animateOnce={true}
-							delay={1100}
+							delay={600}
 							className='col-md-2 col-12 card'
 							style={{ borderBottom: '2px solid #f83737' }}
 						>
@@ -50,7 +50,7 @@ const About = React.forwardRef((props, ref) => {
 							animateIn='fadeInUp'
 							duration={1}
 							animateOnce={true}
-							delay={1200}
+							delay={700}
 							className='col-md-2 col-12 card'
 							style={{ borderBottom: '2px solid #ffeb39' }}
 						>
@@ -61,7 +61,7 @@ const About = React.forwardRef((props, ref) => {
 							animateIn='fadeInUp'
 							duration={1}
 							animateOnce={true}
-                            delay={1300}
+                            delay={800}
                             offset={100}
 							className='col-md-2 col-12 card last-card'
 							style={{ borderBottom: '2px solid #fc8600' }}

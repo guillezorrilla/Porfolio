@@ -5,12 +5,16 @@ import './App.scss';
 import About from './components/About';
 import Skills from './components/Skills';
 import Experience from './components/Experience';
+import Education from './components/Education';
+import Contact from './components/Contact';
 
 function App(props) {
   const home = React.createRef();
   const about = React.createRef();
   const skills = React.createRef();
   const experience = React.createRef()
+  const education = React.createRef()
+  const contact = React.createRef()
 
 
   const executeScroll = (content) => {
@@ -27,6 +31,9 @@ function App(props) {
       case 'experience': 
         experience.current.scrollIntoView({behavior: 'smooth'})
         break
+      case 'education':
+          experience.current.scrollIntoView({behavior: 'smooth'})
+          break
       default:
         console.log('Hola')
     }
@@ -40,7 +47,9 @@ function App(props) {
       <Home ref={home} />
       <About ref={about} />
       <Skills ref={skills} />
+      <Education ref={education} />
       <Experience ref={experience} />
+      <Contact ref={contact}/>
       </div>
     </div>
   );

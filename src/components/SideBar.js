@@ -20,7 +20,7 @@ const SideBar = (props) => {
 						<p onClick={() => {props.sectionClicked('skills')}}>SKILLS</p>
 					</li>
 					<li>
-						<p>EDUCATION</p>
+						<p onClick={() => {props.sectionClicked('education')}}>EDUCATION</p>
 					</li>
 					<li>
 						<p onClick={() => {props.sectionClicked('experience')}}>EXPERIENCE</p>
