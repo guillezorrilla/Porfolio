@@ -6,9 +6,9 @@ import { fadeInDown } from 'react-animations'
 const FadeInUpAnimation = keyframes`${fadeInDown}`
 const FadeInUpDiv = styled.div`animation: 2s ${FadeInUpAnimation};`
 
-const Home = () => {
+const Home = React.forwardRef((props, ref) => {
 	return (
-		<div>
+		<section ref={ref}>
 			<div className='home'>
 				<div className='flexslider' style={{ height: '100%' }}>
 					<div className='list-img' style={{ height: '100%' }}>
@@ -28,8 +28,8 @@ const Home = () => {
 					</div>
                 </div>
 			</div>
-		</div>
+		</section>
 	)
-}
+})
 
 export default Home

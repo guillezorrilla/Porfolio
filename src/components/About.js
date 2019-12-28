@@ -6,12 +6,12 @@ import photo from '../assets/icons/photo.png'
 import travel from '../assets/icons/travel.png'
 import ScrollAnimation from 'react-animate-on-scroll'
 
-const About = () => {
+const About = React.forwardRef((props, ref) => {
 	return (
-		<div className='about'>
+		<section ref={ref} className='about'>
 			<ScrollAnimation animateIn='fadeInLeft' duration={2} animateOnce={true}>
 				<p style={{ fontSize: '12px' }}>About me</p>
-				<h5 style={{ color: 'black', fontWeight: '600' }}>WHO AM I?</h5>
+				<h5 className="section-heading" style={{ color: 'black', fontWeight: '600' }}>WHO AM I?</h5>
 				<p style={{ marginTop: '30px' }}>
 					Hello my name is <b>Guillermo Zorrilla</b>, i´m a mechanical engineering student and i work as a
 					programer in Spain. <br />
@@ -63,7 +63,7 @@ const About = () => {
 							animateOnce={true}
                             delay={1300}
                             offset={100}
-							className='col-md-2 col-12 card'
+							className='col-md-2 col-12 card last-card'
 							style={{ borderBottom: '2px solid #fc8600' }}
 						>
 							<img className='about-icon' src={travel} alt='web-development' />
@@ -72,8 +72,8 @@ const About = () => {
 					</div>
 				</div>
 			</ScrollAnimation>
-		</div>
+		</section>
 	)
-}
+})
 
 export default About

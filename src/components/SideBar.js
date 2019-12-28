@@ -2,7 +2,7 @@ import React from 'react'
 import './Sidebar.scss'
 import fotoPerfil from '../assets/pp.jpg'
 
-const SideBar = () => {
+const SideBar = (props) => {
 	return (
 		<div className='sidebar'>
 			<img className='foto-perfil' src={fotoPerfil} alt='' />
@@ -11,25 +11,25 @@ const SideBar = () => {
 			<nav>
 				<ul>
 					<li>
-						<a href='/'>HOME</a>
+						<p onClick={() => {props.sectionClicked('home')}}>HOME</p>
 					</li>
 					<li>
-						<a href='/'>ABOUT</a>
+						<p onClick={() => {props.sectionClicked('about')}}>ABOUT</p>
 					</li>
 					<li>
-						<a href='/'>SKILLS</a>
+						<p onClick={() => {props.sectionClicked('skills')}}>SKILLS</p>
 					</li>
 					<li>
-						<a href='/'>EDUCATION</a>
+						<p>EDUCATION</p>
 					</li>
 					<li>
-						<a href='/'>EXPERIENCE</a>
+						<p onClick={() => {props.sectionClicked('experience')}}>EXPERIENCE</p>
 					</li>
 					<li>
-						<a href='/'>WORK</a>
+						<p>WORK</p>
 					</li>
 					<li>
-						<a href='/'>CONTACT</a>
+						<p>CONTACT</p>
 					</li>
 				</ul>
 			</nav>
