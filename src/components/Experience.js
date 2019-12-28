@@ -4,7 +4,7 @@ import ScrollAnimation from 'react-animate-on-scroll'
 
 const Experience = forwardRef((props, ref) => {
 	return (
-		<section ref={ref} className='skills'>
+		<section ref={ref} className='experience'>
 			<ScrollAnimation animateIn='fadeInLeft' duration={2} animateOnce={true}>
 				<p style={{ fontSize: '12px' }}>Experience</p>
 				<h5 className="section-heading" style={{ color: 'black', fontWeight: '600' }}>WORK EXPERIENCE</h5>

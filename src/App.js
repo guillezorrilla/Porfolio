@@ -25,7 +25,7 @@ function App(props) {
         skills.current.scrollIntoView({behavior:'smooth'})
         break
       case 'experience': 
-        Experience.current.scrollIntoView({behavior: 'smooth'})
+        experience.current.scrollIntoView({behavior: 'smooth'})
         break
       default:
         console.log('Hola')
