@@ -1,0 +1,51 @@
+.sidebar {
+    padding-top: 1em;
+    padding-bottom: 40px;
+    float: left;
+    width: 300px;
+    position: fixed;
+    overflow-y: auto;
+    height: 100%;
+    text-align: center;
+    z-index: 1001;
+    background: #f2f3f7;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    @media(max-width: 991px){
+        visibility: hidden
+      }
+}
+
+.foto-perfil {
+    width: 200px;
+    border-radius: 50%;
+    text-align: center;
+    padding: 20px;
+}
+
+.name {
+    display: block;
+    text-align: center;
+    color: #000;
+    padding-right: .3em;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.sidebar li {
+    margin: 0 0 15px 0;
+    padding: 0;
+    list-style: none;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.sidebar a:hover {
+    color: rgb(236, 111, 8);
+    text-decoration: underline rgb(236, 111, 8);
+    cursor: pointer;
+}
+

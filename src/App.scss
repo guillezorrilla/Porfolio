@@ -1,0 +1,29 @@
+p {
+  color: rgba(80, 80, 80, 1)
+}
+a {
+  color: rgba(80, 80, 80, 1)
+}
+
+.sidebar-button {
+    position: fixed;
+    top: 0px;
+    z-index: 9999;
+    cursor: pointer;
+    opacity: 1;
+    visibility: hidden;
+    background: none;
+    padding: 20px;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    border: none;
+
+    @media(max-width: 991px){
+        visibility: hidden
+      }
+}
+
+.sidebar-button i {
+    font-size: 28px;
+}

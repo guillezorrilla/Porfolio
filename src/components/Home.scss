@@ -1,0 +1,74 @@
+.home {
+    width: calc(100% - 300px);
+    float: right;
+    height: 100vh;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    margin-bottom: 10em;
+
+    @media(max-width: 991px) {
+        width: 100%;
+        float: none;
+    }
+}
+
+.home li {
+    list-style: none;
+    justify-content: center;
+}
+
+.list-img {
+    background-image: url('../assets/IMG_7714_2.jpg');
+    background-size: cover;
+    -webkit-animation: fadein 2s;
+    /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 2s;
+    /* Firefox < 16 */
+    -ms-animation: fadein 2s;
+    /* Internet Explorer */
+    -o-animation: fadein 2s;
+    /* Opera < 14.1 */
+    animation: fadein 2s;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.desc {
+    justify-content: center;
+    align-items: left;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.cv-button {
+    width: 200px;
+    max-width: 200px;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 12px;
+    letter-spacing: 3px;
+    margin-top: 20px;
+    color: black;
+    border: 1px solid black;
+    font-weight: 400;
+}
+
+.icon {
+    margin-left: 15px;
+}
+
+.home h1,
+h2 {
+    color: black;
+}
