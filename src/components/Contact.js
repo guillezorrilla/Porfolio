@@ -36,12 +36,12 @@ const Contact = forwardRef((props, ref) => {
             </a>
           </div>
           <div className='contact-outter'>
-            <a href='#/' onClick={openMail}>
+            <div className='contact-outter' onClick={openMail}>
               <div style={{ fontSize: '40px' }} className='contact-box'>
                 <i className='far fa-envelope'></i>
               </div>
               <p>guillez94@hotmail.com</p>
-            </a>
+            </div>
           </div>
         </div>
       </ScrollAnimation>
