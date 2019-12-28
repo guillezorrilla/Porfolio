@@ -9,9 +9,10 @@
     width: calc(100% - 300px);
     background-image: url('../assets/city.jpg');
     margin-bottom: 5em;
-    @media (max-width: 991px){
-    width: 100%;
-    float: none;
+
+    @media (max-width: 991px) {
+        width: 100%;
+        float: none;
     }
 }
 
@@ -29,12 +30,14 @@
     padding: 0 2.5em;
 }
 
-.row:before, .row:after {
+.row:before,
+.row:after {
     content: " ";
     display: table;
 }
 
-.row:before, .row:after {
+.row:before,
+.row:after {
     content: " ";
     display: table;
 }

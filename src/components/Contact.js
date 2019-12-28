@@ -9,7 +9,7 @@ const Contact = forwardRef((props, ref) => {
 
   return (
     <section ref={ref} className='contact'>
-      <ScrollAnimation animateIn='zoomInUp' duration={2} animateOnce={true}>
+      <ScrollAnimation animateIn='zoomInUp' duration={2} offset={50} animateOnce={true}>
         <p style={{ fontSize: '12px' }}>Get in touch</p>
         <h5
           className='section-heading'
