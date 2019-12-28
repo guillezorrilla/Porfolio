@@ -1,5 +1,6 @@
 .counters {
     padding: 3em 0em;
+    background-image: url('../assets/city.jpg');
     background-size: cover;
     background-attachment: fixed;
     background-position: center center;
@@ -7,7 +8,6 @@
     clear: both;
     float: right;
     width: calc(100% - 300px);
-    background-image: url('../assets/city.jpg');
     margin-bottom: 5em;
 
     @media (max-width: 991px) {
