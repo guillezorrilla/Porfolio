@@ -26,9 +26,6 @@ const SideBar = (props) => {
 						<p onClick={() => {props.sectionClicked('experience')}}>EXPERIENCE</p>
 					</li>
 					<li>
-						<p>WORK</p>
-					</li>
-					<li>
 						<p>CONTACT</p>
 					</li>
 				</ul>

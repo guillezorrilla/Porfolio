@@ -2,7 +2,7 @@
     width: calc(100% - 300px);
     float: right;
     padding: 0 2.5em;
-    margin-bottom: 10em;
+    margin-bottom: 4em;
     @media(max-width: 991px){
         width: 100%;
         float: none;
@@ -35,12 +35,6 @@
     border: none;
     border-radius: 5px;
     justify-content: space-between;
-}
-
-.last-card {
-    @media(max-width: 991px){
-        margin-bottom: 10em;
-      }
 }
 
 .about-icon{

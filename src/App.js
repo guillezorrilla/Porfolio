@@ -7,6 +7,7 @@ import Skills from './components/Skills';
 import Experience from './components/Experience';
 import Education from './components/Education';
 import Contact from './components/Contact';
+import Coffe from './components/Coffe';
 
 function App(props) {
   const home = React.createRef();
@@ -46,6 +47,7 @@ function App(props) {
       <div>
       <Home ref={home} />
       <About ref={about} />
+      <Coffe />
       <Skills ref={skills} />
       <Education ref={education} />
       <Experience ref={experience} />

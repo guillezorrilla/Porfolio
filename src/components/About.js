@@ -28,6 +28,7 @@ const About = React.forwardRef((props, ref) => {
 							duration={1}
 							animateOnce={true}
 							delay={500}
+							offset={50}
 							className='col-md-2 col-12 card'
 							style={{ borderBottom: '2px solid #2c98f0' }}
 						>
@@ -40,6 +41,7 @@ const About = React.forwardRef((props, ref) => {
 							duration={1}
 							animateOnce={true}
 							delay={600}
+							offset={50}
 							className='col-md-2 col-12 card'
 							style={{ borderBottom: '2px solid #f83737' }}
 						>
@@ -51,6 +53,7 @@ const About = React.forwardRef((props, ref) => {
 							duration={1}
 							animateOnce={true}
 							delay={700}
+							offset={50}
 							className='col-md-2 col-12 card'
 							style={{ borderBottom: '2px solid #ffeb39' }}
 						>
@@ -62,7 +65,7 @@ const About = React.forwardRef((props, ref) => {
 							duration={1}
 							animateOnce={true}
                             delay={800}
-                            offset={100}
+                            offset={50}
 							className='col-md-2 col-12 card last-card'
 							style={{ borderBottom: '2px solid #fc8600' }}
 						>
