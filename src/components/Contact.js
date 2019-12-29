@@ -9,7 +9,11 @@ const Contact = forwardRef((props, ref) => {
 
   return (
     <section ref={ref} className='contact'>
-      <ScrollAnimation animateIn='zoomInUp' duration={2} offset={50} animateOnce={true}>
+      <ScrollAnimation
+        animateIn='zoomInUp'
+        duration={2}
+        offset={50}
+        animateOnce={true}>
         <p style={{ fontSize: '12px' }}>Get in touch</p>
         <h5
           className='section-heading'
@@ -18,13 +22,11 @@ const Contact = forwardRef((props, ref) => {
         </h5>
         <div className='test'>
           <div className='contact-outter'>
-            <a
-              href='https://www.instagram.com/zorrillaguillermo/?hl=es'
-              target='_blank'>
+            <a href='https://github.com/guillezorrilla' target='blank'>
               <div style={{ fontSize: '40px' }} className='contact-box'>
-                <i className='fab fa-instagram'></i>
+                <i className='fab fa-github'></i>
               </div>
-              <p>@zorrillaguillermo</p>
+              <p>github/guillezorrilla</p>
             </a>
           </div>
           <div className='contact-outter'>
@@ -43,6 +45,19 @@ const Contact = forwardRef((props, ref) => {
               <p>guillez94@hotmail.com</p>
             </div>
           </div>
+          <div className='contact-outter'>
+            <a
+              href='https://www.instagram.com/zorrillaguillermo/?hl=es'
+              target='blank'>
+              <div style={{ fontSize: '40px' }} className='contact-box'>
+                <i className='fab fa-instagram'></i>
+              </div>
+              <p>@zorrillaguillermo</p>
+            </a>
+          </div>
+        </div>
+        <div className='contact-git'>
+          <p>This web was made in React</p>
         </div>
       </ScrollAnimation>
     </section>

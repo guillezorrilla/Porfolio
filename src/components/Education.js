@@ -42,6 +42,7 @@ const Education = forwardRef((props, ref) => {
   const [expanded, setExpanded] = React.useState(false);
 
   const handleChange = panel => (event, isExpanded) => {
+    event.stopPropagation()
     setExpanded(isExpanded ? panel : false);
   };
   return (

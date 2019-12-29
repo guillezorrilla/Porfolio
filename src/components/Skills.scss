@@ -3,7 +3,7 @@
     float: right;
     padding: 0 2.5em;
     margin-bottom: 4em;
-    @media(max-width: 991px){
+    @media(max-width: 1024px){
         width: 100%;
         float: none;
         padding: 0;
@@ -138,4 +138,24 @@
 }
 .progress-bar.color-6:after {
     background: #a84cb8;
+}
+.progress-bar.color-7 {
+    background: #ff6923;
+}
+
+.progress-bar.color-7 span {
+    color: #ff6923;
+}
+.progress-bar.color-7:after {
+    background: #ff6923;
+}
+.progress-bar.color-8 {
+    background: #970f7a;
+}
+
+.progress-bar.color-8 span {
+    color: #970f7a;
+}
+.progress-bar.color-8:after {
+    background: #970f7a;
 }

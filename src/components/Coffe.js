@@ -20,15 +20,15 @@ const Coffe = () => {
 			<div className='narrow-content'>
 				<div className='row' />
 				<div className='row'>
-					<div className='col-md-4 text-center animate-box fadeInUp animated'>
+					<div className='col-lg-4 text-center animate-box fadeInUp animated'>
 						<span className='counter js-counter'>1342</span>
-						<span className='counter-label'>Cups of Coffe</span>
+						<span className='counter-label'>Cups of Coffee</span>
 					</div>
-					<div className='col-md-4 text-center animate-box fadeInUp animated'>
+					<div className='col-lg-4 text-center animate-box fadeInUp animated'>
 						<span className='counter js-counter'>{date}</span>
 						<span className='counter-label'>Days Progamming</span>
                     </div>
-                    <div className='col-md-4 text-center animate-box fadeInUp animated'>
+                    <div className='col-lg-4 text-center animate-box fadeInUp animated'>
 						<span className='counter js-counter'>37</span>
 						<span className='counter-label'>Countries visited</span>
 					</div>

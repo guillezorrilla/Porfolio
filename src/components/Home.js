@@ -19,7 +19,7 @@ const Home = React.forwardRef((props, ref) => {
 								Hi! <br /> Im Guillermo
 							</h1>
 							<h5>
-								Im a mechanical engineer who like to program in the free time
+								I'm a mechanical engineer and a programmer
 							</h5>
 							<a href={CV} download="CV Guillermo Zorrilla.pdf">
 							<button type='button' className='btn btn-outline-dark cv-button'>

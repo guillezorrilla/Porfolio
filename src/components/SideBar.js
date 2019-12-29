@@ -3,15 +3,16 @@ import './Sidebar.scss'
 import fotoPerfil from '../assets/pp.jpg'
 
 const SideBar = (props) => {
+	
 	return (
-		<div className='sidebar'>
+		<div className={props.openSidebar ? 'sidebar sidebar-open': 'sidebar'}>
 			<img className='foto-perfil' src={fotoPerfil} alt='' />
 			<p className='name'>Guillermo Zorrilla</p>
-			<p style={{ color: '#929292' }}>Programmmer | Design | Engineer</p>
+			<p className='sidebar-carreras' style={{ color: '#929292' }}>Programmmer | Design | Engineer</p>
 			<nav>
-				<ul>
+				<ul onClick={() => {props.closeSideDrawer()}}>
 					<li>
-						<p onClick={() => {props.sectionClicked('home')}}>HOME</p>
+						<p onClick={() => {props.sectionClicked('home') }}>HOME</p>
 					</li>
 					<li>
 						<p onClick={() => {props.sectionClicked('about')}}>ABOUT</p>
@@ -26,7 +27,7 @@ const SideBar = (props) => {
 						<p onClick={() => {props.sectionClicked('experience')}}>EXPERIENCE</p>
 					</li>
 					<li>
-						<p>CONTACT</p>
+						<p onClick={() => {props.sectionClicked('contact')}}>CONTACT</p>
 					</li>
 				</ul>
 			</nav>

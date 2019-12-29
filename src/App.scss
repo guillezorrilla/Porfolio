@@ -19,11 +19,22 @@ a {
     transition: 0.5s;
     border: none;
 
-    @media(max-width: 991px){
-        visibility: hidden
+    @media(max-width: 1024px){
+        visibility: visible;
       }
+}
+
+.open-button {
+    // left: 45%;
 }
 
 .sidebar-button i {
     font-size: 28px;
+    color: #3d3d3d
 }
+
+button:focus {
+    outline: none;
+    outline: none;
+}
+
