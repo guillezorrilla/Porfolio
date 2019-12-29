@@ -21,7 +21,7 @@ const Home = React.forwardRef((props, ref) => {
 							<h5>
 								I'm a mechanical engineer and a programmer
 							</h5>
-							<a href={CV} download="CV Guillermo Zorrilla.pdf">
+							<a href={CV} download="CV Guillermo Zorrilla.pdf" className='cv-button-a'>
 							<button type='button' className='btn btn-outline-dark cv-button'>
 								DOWNLOAD CV<i className='fa fa-download icon' />
 							</button>
