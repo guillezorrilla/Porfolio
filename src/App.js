@@ -74,7 +74,7 @@ function App(props) {
   return (
     <div className='container-fluid App'>
       <button className={style} onClick={openSideDrawer}>
-        <i className={openSidebar ? 'fa fa-chevron-left' : 'fa fa-chevron-right'} />
+        <i className={openSidebar ? 'fa fa-chevron-left' : 'fas fa-bars'} />
       </button>
       <SideBar openSidebar={openSidebar} sectionClicked={executeScroll} closeSideDrawer={openSideDrawer} />
       <div onClick={closeSideDrawer}>

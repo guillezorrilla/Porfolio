@@ -19,3 +19,9 @@
   line-height: 1.8;
   position: relative;
 }
+
+.MuiExpansionPanelSummary-content {
+  @media(max-width: 1024px){
+    flex-direction: column;
+  }
+}

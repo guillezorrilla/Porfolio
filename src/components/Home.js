@@ -16,7 +16,7 @@ const Home = React.forwardRef((props, ref) => {
 					<div className='container-fluid' style={{ height: '100%' }}>
 						<FadeInUpDiv className='desc' style={{ height: '100%' }}>
 							<h1>
-								Hi! <br /> Im Guillermo
+								Hi! <br /> I'm Guillermo
 							</h1>
 							<h5>
 								I'm a mechanical engineer and a programmer

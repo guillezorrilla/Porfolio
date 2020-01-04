@@ -13,12 +13,11 @@ const About = React.forwardRef((props, ref) => {
 				<p style={{ fontSize: '12px' }}>About me</p>
 				<h5 className="section-heading" style={{ color: 'black', fontWeight: '600' }}>WHO AM I?</h5>
 				<p style={{ marginTop: '30px' }}>
-					Hello my name is <b>Guillermo Zorrilla</b>, i'm a mechanical engineering student and I work as a
-					programmer in Spain. <br />
-					<br />I work as a front-end developer.For the moment I know ExtJs, JavaScript, React, React Native, CSS, HTML and a
-					little bit and node.js.
-					<br />I also do UI/UX when I have the time and love photography and video editing, I have some
-					videos on the internet if you want to check them out.
+					Hello my name is <b>Guillermo Zorrilla</b>, I'm a mechanical engineering student and I work as a
+					programmer in Delogica, a company in Madrid, Spain. <br />
+					<br />I work as a front-end developer. I know: ExtJs, JavaScript, React, React Native, CSS, HTML and a little of node.js.
+					<br />I also do UI/UX when I have the time. <br/> I love photography and video editing, I have some
+					videos on the internet and if you want to find them you can write me an email.
 				</p>
 				<div className='card-wrapper'>
 					<div className='row' style={{ width: '100%', justifyContent: 'center' }}>

@@ -30,6 +30,9 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    @media (max-width: 1024px) {
+        background-attachment: scroll;
+    }
 }
 
 .counters .overlay {
